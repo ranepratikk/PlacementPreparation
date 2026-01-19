@@ -1,0 +1,116 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.*;
+class Main {
+    
+    static boolean isodd(int num){
+        return num%2!=0;
+    }
+    public static void main(String[] args) {
+        
+        
+        
+//        Q1]
+//        Scanner sc = new Scanner(System.in);
+//        int a = sc.nextInt();
+//
+//        if (a % 7 == 0 && a % 3 == 0) {
+//            System.out.println("fun");
+//        } 
+//        else if (a % 7 == 0) {
+//            System.out.println("buzz");
+//        } 
+//        else if (a % 3 == 0) {
+//            System.out.println("fizz");
+//        }
+
+
+// Scanner sc=new Scanner(System.in);
+// int a=sc.nextInt();
+// if(a%3==0){
+//      System.out.println("fun");
+// }
+// if(a%7==0){
+//      System.out.println("buzz");
+// }
+
+
+
+
+
+    
+    
+    
+    
+    	
+//   Q2]  	Accept a start number from user and end number from user. Print all odd
+//    	number between start and end number.
+    // 	Scanner sc=new Scanner(System.in);
+    // 	int start=sc.nextInt();
+    // 	int end=sc.nextInt();
+    	
+    // 	for(int i=start;i<end;i++) {
+    // 		if(i%2!=0) {
+    // 			System.out.println(i);
+    // 		}
+    
+    
+    
+    	Scanner sc=new Scanner(System.in);
+    	int start=sc.nextInt();
+    	int end=sc.nextInt();
+    	
+    	if(isodd(start)==false){
+    	    start=+1;
+    	    
+    	}
+    	for(int i=start;i<end;i=i+2){
+    	    System.out.println(i);
+    	}
+    
+    
+    
+    
+    
+    
+//  Q3]   Accept a number from user and check if it is palindrome number or not eg
+// (121)
+// int no;
+// int s;
+// int tot=0;
+// Scanner sc=new Scanner(System.in);
+// int a=sc.nextInt();
+// no=a;
+// while(no>0){
+//     s=no%10;
+//      tot=tot*10+s;
+//      no=no/10;
+    
+// }
+// if(a==tot){
+//     System.out.println("same");
+// }
+// else {
+// System.out.println("not");
+//     	}   
+
+
+
+     // Q4]  Accept a term from user and print Fibonacci series.//
+     
+    // Scanner sc=new Scanner(System.in);
+    // int no=sc.nextInt();
+    // int h=0;
+    
+    // int a=0;
+    // int b=1;
+    // while(no>h){
+    // System.out.println(a+"=>");
+    // int c=a+b;
+    // a=b;
+    // b=c;
+    //     h++;
+    // }
+    
+    }
+}
